@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED3E6A75-15A9-4D9B-B020-8EC23FAF5600}</ProjectGuid>
+    <RootNamespace>MiniSynth</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)</IntDir>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">*.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.pch;*.exp;*.idb;*.rep;*.xdc;*_manifest.rc;*.bsc;*.sbr;*.xml</ExtensionsToDeleteOnClean>
+    <ExtensionsToDeleteOnClean Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">*.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.pch;*.exp;*.idb;*.rep;*.xdc;*_manifest.rc;*.bsc;*.sbr;*.xml</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINDLL;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>User32.lib;comdlg32.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\$(ProjectName).dll</OutputFile>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>User32.lib;comdlg32.lib</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\$(ProjectName).dll</OutputFile>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLModule.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="Oscillator.cpp" />
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="pluginobjects.cpp" />
+    <ClCompile Include="RackAFXDLL.cpp" />
+    <ClCompile Include="MiniSynth.cpp" />
+    <ClCompile Include=".\VAOnePoleFilter.cpp" />
+    <ClCompile Include=".\MoogLadderFilter.cpp" />
+    <ClCompile Include=".\MiniSynthVoice.cpp" />
+    <ClCompile Include=".\LFO.cpp" />
+    <ClCompile Include=".\EnvelopeGenerator.cpp" />
+    <ClCompile Include=".\DiodeLadderFilter.cpp" />
+    <ClCompile Include=".\DCA.cpp" />
+    <ClCompile Include=".\AlgorithmicOscillator.cpp" />
+    <ClCompile Include="RESpaceEcho.cpp" />
+    <ClCompile Include="StereoDelay.cpp" />
+    <ClCompile Include="Voice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLModule.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="Oscillator.h" />
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="pluginconstants.h" />
+    <ClInclude Include="RackAFXDLL.h" />
+    <ClInclude Include="MiniSynth.h" />
+    <ClInclude Include=".\VAOnePoleFilter.h" />
+    <ClInclude Include=".\synthfunctions.h" />
+    <ClInclude Include=".\stdint.h" />
+    <ClInclude Include=".\MoogLadderFilter.h" />
+    <ClInclude Include=".\MiniSynthVoice.h" />
+    <ClInclude Include=".\LFO.h" />
+    <ClInclude Include=".\fastapprox.h" />
+    <ClInclude Include=".\EnvelopeGenerator.h" />
+    <ClInclude Include=".\DiodeLadderFilter.h" />
+    <ClInclude Include=".\DCA.h" />
+    <ClInclude Include=".\AlgorithmicOscillator.h" />
+    <ClInclude Include="RESpaceEcho.h" />
+    <ClInclude Include="StereoDelay.h" />
+    <ClInclude Include="Voice.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

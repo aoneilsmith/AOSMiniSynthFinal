@@ -1,0 +1,90 @@
+﻿Build started 12/17/2013 4:53:36 PM.
+     1>Project "C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\AOSMiniSynthFinal.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\\" /Fd"C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DLLModule.cpp Filter.cpp Oscillator.cpp plugin.cpp pluginobjects.cpp RackAFXDLL.cpp MiniSynth.cpp .\VAOnePoleFilter.cpp .\MoogLadderFilter.cpp .\MiniSynthVoice.cpp .\LFO.cpp .\EnvelopeGenerator.cpp .\DiodeLadderFilter.cpp .\DCA.cpp .\AlgorithmicOscillator.cpp RESpaceEcho.cpp StereoDelay.cpp Voice.cpp
+         DLLModule.cpp
+         Filter.cpp
+         Oscillator.cpp
+         plugin.cpp
+         pluginobjects.cpp
+         RackAFXDLL.cpp
+         MiniSynth.cpp
+     1>MiniSynth.cpp(186): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>MiniSynth.cpp(187): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>MiniSynth.cpp(256): warning C4018: '>' : signed/unsigned mismatch
+     1>MiniSynth.cpp(369): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+         VAOnePoleFilter.cpp
+         MoogLadderFilter.cpp
+         MiniSynthVoice.cpp
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(124): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(135): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(196): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(209): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(229): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(264): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(280): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(290): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+         LFO.cpp
+         EnvelopeGenerator.cpp
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(124): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(135): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(196): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(209): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(229): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(264): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(280): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(290): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+         DiodeLadderFilter.cpp
+         DCA.cpp
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(124): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(135): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(196): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(209): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(229): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(264): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(280): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(290): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+         AlgorithmicOscillator.cpp
+         RESpaceEcho.cpp
+         StereoDelay.cpp
+         Voice.cpp
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(124): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(135): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(196): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(209): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(229): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(264): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(280): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\fastapprox.h(290): warning C4244: 'initializing' : conversion from 'uint32_t' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\envelopegenerator.cpp(189): warning C4723: potential divide by 0
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\minisynth.cpp(643): warning C4700: uninitialized local variable 'pVoice' used
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\minisynth.cpp(362): warning C4700: uninitialized local variable 'pVoice' used
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\minisynth.cpp(593): warning C4715: 'CMiniSynth::midiNoteOn' : not all control paths return a value
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\aosminisynthfinal\dllmodule.cpp(507): warning C4715: 'CDLLModule::processAudioFrame' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.lib" /MACHINE:X86 /SAFESEH /DLL C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\DLLModule.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\Filter.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\Oscillator.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\plugin.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\pluginobjects.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\RackAFXDLL.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\MiniSynth.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\VAOnePoleFilter.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\MoogLadderFilter.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\MiniSynthVoice.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\LFO.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\EnvelopeGenerator.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\DiodeLadderFilter.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\DCA.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\AlgorithmicOscillator.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\RESpaceEcho.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\StereoDelay.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\Voice.obj
+            Creating library C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.lib and object C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.exp
+         AOSMiniSynthFinal.vcxproj -> C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\AOSMiniSynthFinal.dll
+     1>Done Building Project "C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\AOSMiniSynthFinal\AOSMiniSynthFinal.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.18
